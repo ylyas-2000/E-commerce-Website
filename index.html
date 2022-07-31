@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- swiperjs cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <!-- header section starts -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="">
+                <div>
+                    <h3>Groceyish</h3>
+                    <p>GROCERY</p>
+                </div>
+            </div>
+            <div class="header-input">
+                <select>
+                    <option>All Categories</option>
+                    <option>Explore Categories</option>
+                    <option>Featured Products</option>
+                    <option>Daily Best Sells</option>
+                    <option>Top Sells</option>
+                    <option>Top Rated</option>
+                    <option>Trending Items</option>
+                    <option>Recently Added</option>
+                </select>
+                <span> | </span>
+                <input type="search" placeholder="Search for items...">
+                <button><img src="img/search.png" alt=""></button>
+            </div>
+            <div class="header-right">
+                <div class="heart"><img src="img/heart.png" alt=""> Wishlist</div>
+                <div class="shopping-cart"><img src="img/shopping-cart.png" alt=""> <span><p>My cart</p> <p>$21</p></span> <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="profile"><img src="img/profile-man.png" alt=""> <h3>Ramzi Cherif</h3> <i class="fa-solid fa-chevron-down"></i></div>
+            </div>
+            <div class="heart-like"></div>
+            <div class="add-to-cart"></div>
+            <div class="profile-media">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i> youtube</a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i> linkedin</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> twitter</a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i> whatsapp</a></li>
+                    <li><a href="tel:1233-7777"><i class="fa-solid fa-phone"></i> 1233-7777</a></li>
+                    <li><a href="mailto:example@gmail.com"><i class="fa-solid fa-envelope"></i> example@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+            <nav class="navbar">
+                <div class="wrapper">
+                    <div class="navbar-categories">
+                        <ul>
+                            <li><a href="#">Explore Categories</a></li>
+                            <li><a href="#">Featured Products</a></li>
+                            <li><a href="#">Daily Best Sells</a></li>
+                            <li><a href="#">Top Sells</a></li>
+                            <li><a href="#">Top Rated</a></li>
+                            <li><a href="#">Trending Items</a></li>
+                            <li><a href="#">Recently Added</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-btn">
+                        <img src="img/li_layout-grid.png" alt="">
+                        <h3>Brows All Categories</h3>
+                    </div>
+                    <ul class="navbar-menu">
+                        <li><a href="#" class="active"><img src="img/home.png" alt=""> Home</a></li>
+                        <li><a href="#"><img src="img/hot-deals.png" alt=""> Hot deals</a></li>
+                        <li><a href="#"><img src="img/promotions.png" alt=""> Promotions</a></li>
+                        <li><a href="#"><img src="img/new-products.png" alt=""> New products</a></li>
+                    </ul>
+                    <div class="navbar-telephone">
+                        <span><a href="tel:1233-7777"><img src="img/telephone.png" alt=""> 1233-7777</a></span>
+                        <p>24/7 support center</p>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="house" id="house">
+                <img class="background" src="img/home-background.png" alt="">
+                <img class="vegetables" src="img/home-vegetables.png" alt="">
+
+                <div class="wrapper">
+                    <div class="house-text">
+                        <h1>Don’t miss our daily amazing deals.</h1>
+                        <p>Save up to 60% off on your first order</p>
+                        <div class="home-input">
+                            <img src="img/send.png" alt="">
+                            <input type="text" placeholder="Enter your email address">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- home section ends -->
+
+
+    <!-- categories section starts -->
+    <section class="categories" id="categories">
+
+        <div class="categories-explore">
+            <div class="wrapper">
+                <div class="categories-top">
+                    <h3 class="heading">Explore Categories</h3>
+                    <ul>
+                        <li><a class="active" href="#">All</a></li>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fruits</a></li>
+                        <li><a href="#">Coffe & teas</a></li>
+                        <li><a href="#">Meat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper explore-bottom">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box box-01">
+                            <img src="img/Explore-Categories (1).png" alt="">
+                            <h4>Peach</h4>
+                            <p>20 Items</p>
+                        </div>
+                        <div class="bottom-box box-02">
+                            <img src="img/Explore-Categories (2).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>220 Items</p>
+                        </div>
+                        <div class="bottom-box box-03">
+                            <img src="img/Explore-Categories (3).png" alt="">
+                            <h4>Strawberry</h4>
+                            <p>10 Items</p>
+                        </div>
+                        <div class="bottom-box box-04">
+                            <img src="img/Explore-Categories (4).png" alt="">
+                            <h4>Apple</h4>
+                            <p>40 Items</p>
+                        </div>
+                        <div class="bottom-box box-05">
+                            <img src="img/Explore-Categories (5).png" alt="">
+                            <h4>Orange</h4>
+                            <p>23 Items</p>
+                        </div>
+                        <div class="bottom-box box-06">
+                            <img src="img/Explore-Categories (6).png" alt="">
+                            <h4>Potato</h4>
+                            <p>3 Items</p>
+                        </div>
+                        <div class="bottom-box box-07">
+                            <img src="img/Explore-Categories (7).png" alt="">
+                            <h4>Carrot</h4>
+                            <p>9 Items</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box box-01">
+                            <img src="img/vegetables/vegetables (1).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>20 Items</p>
+                        </div>
+                        <div class="bottom-box box-02">
+                            <img src="img/vegetables/vegetables (2).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>220 Items</p>
+                        </div>
+                        <div class="bottom-box box-03">
+                            <img src="img/vegetables/vegetables (3).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>10 Items</p>
+                        </div>
+                        <div class="bottom-box box-04">
+                            <img src="img/vegetables/vegetables (4).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>40 Items</p>
+                        </div>
+                        <div class="bottom-box box-05">
+                            <img src="img/vegetables/vegetables (5).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>23 Items</p>
+                        </div>
+                        <div class="bottom-box box-06">
+                            <img src="img/vegetables/vegetables (6).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>3 Items</p>
+                        </div>
+                        <div class="bottom-box box-07">
+                            <img src="img/vegetables/vegetables (7).png" alt="">
+                            <h4>Vegetables</h4>
+                            <p>9 Items</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box box-01">
+                            <img src="img/fruits/fruits (1).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>20 Items</p>
+                        </div>
+                        <div class="bottom-box box-02">
+                            <img src="img/fruits/fruits (2).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>220 Items</p>
+                        </div>
+                        <div class="bottom-box box-03">
+                            <img src="img/fruits/fruits (3).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>10 Items</p>
+                        </div>
+                        <div class="bottom-box box-04">
+                            <img src="img/fruits/fruits (4).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>40 Items</p>
+                        </div>
+                        <div class="bottom-box box-05">
+                            <img src="img/fruits/fruits (5).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>23 Items</p>
+                        </div>
+                        <div class="bottom-box box-06">
+                            <img src="img/fruits/fruits (6).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>3 Items</p>
+                        </div>
+                        <div class="bottom-box box-07">
+                            <img src="img/fruits/fruits (7).png" alt="">
+                            <h4>Fruits</h4>
+                            <p>9 Items</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box box-01">
+                            <img src="img/Coffe & teas/Coffe & teas (1).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>20 Items</p>
+                        </div>
+                        <div class="bottom-box box-02">
+                            <img src="img/Coffe & teas/Coffe & teas (2).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>220 Items</p>
+                        </div>
+                        <div class="bottom-box box-03">
+                            <img src="img/Coffe & teas/Coffe & teas (3).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>10 Items</p>
+                        </div>
+                        <div class="bottom-box box-04">
+                            <img src="img/Coffe & teas/Coffe & teas (4).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>40 Items</p>
+                        </div>
+                        <div class="bottom-box box-05">
+                            <img src="img/Coffe & teas/Coffe & teas (5).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>23 Items</p>
+                        </div>
+                        <div class="bottom-box box-06">
+                            <img src="img/Coffe & teas/Coffe & teas (6).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>3 Items</p>
+                        </div>
+                        <div class="bottom-box box-07">
+                            <img src="img/Coffe & teas/Coffe & teas (7).png" alt="">
+                            <h4>Coffe & teas</h4>
+                            <p>9 Items</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box box-01">
+                            <img src="img/meat/meat (1).png" alt="">
+                            <h4>Meat</h4>
+                            <p>20 Items</p>
+                        </div>
+                        <div class="bottom-box box-02">
+                            <img src="img/meat/meat (2).png" alt="">
+                            <h4>Meat</h4>
+                            <p>220 Items</p>
+                        </div>
+                        <div class="bottom-box box-03">
+                            <img src="img/meat/meat (3).png" alt="">
+                            <h4>Meat</h4>
+                            <p>10 Items</p>
+                        </div>
+                        <div class="bottom-box box-04">
+                            <img src="img/meat/meat (4).png" alt="">
+                            <h4>Meat</h4>
+                            <p>40 Items</p>
+                        </div>
+                        <div class="bottom-box box-05">
+                            <img src="img/meat/meat (5).png" alt="">
+                            <h4>Meat</h4>
+                            <p>23 Items</p>
+                        </div>
+                        <div class="bottom-box box-06">
+                            <img src="img/meat/meat (6).png" alt="">
+                            <h4>Meat</h4>
+                            <p>3 Items</p>
+                        </div>
+                        <div class="bottom-box box-07">
+                            <img src="img/meat/meat (7).png" alt="">
+                            <h4>Meat</h4>
+                            <p>9 Items</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-btn-next"><img src="img/arrow-next.png" alt=""></div>
+                <div class="swiper-btn-prev"><img src="img/arrow-prev.png" alt=""></div>
+            </div>
+        </div>
+
+        <div class="categories-featured">
+            <div class="wrapper">
+                <div class="categories-top">
+                    <h3 class="heading">Featured Products</h3>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a class="active" href="#">Vegetables</a></li>
+                        <li><a href="#">Fruits</a></li>
+                        <li><a href="#">Coffe & teas</a></li>
+                        <li><a href="#">Meat</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="swiper featured-bottom">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (1).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Redish 500g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$2 <span>$3.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (2).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Potatos 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (3).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Tomatos 200g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$0.30 <span>$0.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (4).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Broccoli 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1.50 <span>$2.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (5).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Green Beans 250g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (1).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Redish 500g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$2 <span>$3.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (2).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Potatos 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (3).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Tomatos 200g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$0.30 <span>$0.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (4).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Broccoli 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1.50 <span>$2.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Featured-Products (5).png" alt="">
+                            <div>
+                                <h5>Vegetables</h5>
+                                <h4>Green Beans 250g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/fruits/fruits (1).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Redish 500g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$2 <span>$3.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/fruits/fruits (2).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Potatos 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/fruits/fruits (3).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Tomatos 200g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$0.30 <span>$0.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/fruits/fruits (4).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Broccoli 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1.50 <span>$2.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/fruits/fruits (5).png" alt="">
+                            <div>
+                                <h5>Fruits</h5>
+                                <h4>Green Beans 250g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Coffe & teas/Coffe & teas (1).png" alt="">
+                            <div>
+                                <h5>Coffe & teas</h5>
+                                <h4>Redish 500g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$2 <span>$3.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Coffe & teas/Coffe & teas (2).png" alt="">
+                            <div>
+                                <h5>Coffe & teas</h5>
+                                <h4>Potatos 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Coffe & teas/Coffe & teas (3).png" alt="">
+                            <div>
+                                <h5>Coffe & teas</h5>
+                                <h4>Tomatos 200g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$0.30 <span>$0.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Coffe & teas/Coffe & teas (4).png" alt="">
+                            <div>
+                                <h5>Coffe & teas</h5>
+                                <h4>Broccoli 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1.50 <span>$2.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/Coffe & teas/Coffe & teas (5).png" alt="">
+                            <div>
+                                <h5>Coffe & teas</h5>
+                                <h4>Green Beans 250g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bottom-boxes">
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/meat/meat (1).png" alt="">
+                            <div>
+                                <h5>Meat</h5>
+                                <h4>Redish 500g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$2 <span>$3.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/meat/meat (2).png" alt="">
+                            <div>
+                                <h5>Meat</h5>
+                                <h4>Potatos 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/meat/meat (3).png" alt="">
+                            <div>
+                                <h5>Meat</h5>
+                                <h4>Tomatos 200g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$0.30 <span>$0.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/meat/meat (4).png" alt="">
+                            <div>
+                                <h5>Meat</h5>
+                                <h4>Broccoli 1kg</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1.50 <span>$2.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-box">
+                            <img class="featured-img" src="img/meat/meat (5).png" alt="">
+                            <div>
+                                <h5>Meat</h5>
+                                <h4>Green Beans 250g</h4>
+                                <ul>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/yellow-star.png" alt=""></li>
+                                    <li><img src="img/gray-star.png" alt=""></li>
+                                    <li>(4)</li>
+                                </ul>
+                                <p>By <span>Mr.food</span></p>
+                                <div class="price-button">
+                                    <div>$1 <span>$1.99</span> </div>
+                                    <button><img src="img/button-shopping-cart.png" alt=""> Add </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-btn-next"><img src="img/arrow-next.png" alt=""></div>
+                <div class="swiper-btn-prev"><img src="img/arrow-prev.png" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+    <!-- categories section ends -->
+
+
+    <!-- offer section starts -->
+    <section class="offer" id="offer">
+        <div class="wrapper">
+            <div class="offer-boxes">
+
+                <div class="offer-item">
+                    <img class="offer-background" src="img/offer-background.png" alt="">
+                    <div class="item-left">
+                        <a href="#">Free delivery</a>
+                        <h3>Free delivery over $50</h3>
+                        <p>Shop $50 product and get free delivery anywhre.</p>
+                        <a class="arrow-btn" href="#">Shop Now <img src="img/li_arrow-right.png" alt=""></a>
+                    </div>
+                    <img class="offer-img-01" src="img/Offer1-img.png" alt="">
+                </div>
+                <div class="offer-item">
+                    <img class="offer-background" src="img/offer-background.png" alt="">
+                    <div class="item-left">
+                        <a href="#">60% off</a>
+                        <h3>Organic Food</h3>
+                        <p>Save up to 60% off on your first order</p>
+                        <a class="arrow-btn" href="#">Order Now <img src="img/li_arrow-right.png" alt=""></a>
+                    </div>
+                    <img class="offer-img-02" src="img/Offer2-img.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- offer section ends -->
+
+
+    <!-- daily best sells section starts -->
+    <section class="daily" id="daily">
+
+        <div class="wrapper">
+            <div class="daily-top">
+                <h3 class="heading">Daily Best Sells</h3>
+                <ul>
+                    <li><a class="active" href="#">Featured</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">New</a></li>
+                </ul>
+                <div class="oclock">
+                    Expires in: 
+                    <span>10 : 56 : 21</span>
+                </div>
+                <div class="swiper-bn-next"><img src="img/arrow-next.png" alt=""></div>
+                <div class="swiper-bn-prev"><img src="img/arrow-prev.png" alt=""></div>
+            </div>
+        </div>
+
+        <div class="swiper daily-bottom">
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide daily-boxes">
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 10%</div>
+                            <img class="product-img" src="img/daily-images (1).png" alt="">
+                            <h5>Coffe & teas</h5>
+                            <h4>Coffe 1kg</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$20 <span>$25</span></div>
+                                <div class="value"></div>
+                                <p>Sold: 20/50</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam daily-reklam-02">Best deal</div>
+                            <img class="product-img" src="img/daily-images (2).png" alt="">
+                            <h5>Meat</h5>
+                            <h4>Halal Sausage 350g</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$4 <span>$10</span></div>
+                                <div class="value value-02"></div>
+                                <p>Sold: 7/20</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 4%</div>
+                            <img class="product-img" src="img/daily-images (3).png" alt="">
+                            <h5>Coffe & teas</h5>
+                            <h4>Green Tea 250g</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$3 <span>$7</span></div>
+                                <div class="value value-03"></div>
+                                <p>Sold: 32/50</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 8%</div>
+                            <img class="product-img" src="img/daily-images (4).png" alt="">
+                            <h5>Vegetables</h5>
+                            <h4>Onion 1kg</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$0.50 <span>$2</span></div>
+                                <div class="value value-04"></div>
+                                <p>Sold: 2/10</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box-last">
+                        <img class="box-last-img" src="img/daily-box-last-img.png" alt="">
+                        <div class="last-item">
+                            <h3>10% OFF</h3>
+                            <p>For new member sign up at the first time</p>
+                            <div class="input">
+                                <h5>Email address <span>*</span></h5>
+                                <div><img src="img/li_mail.png" alt=""> <input type="text" placeholder="johndoe@gmail.com"> </div>
+                            </div>
+                            <div class="input">
+                                <h5>Password <span>*</span></h5>
+                                <div><img src="img/li_key.png" alt=""> <input type="password" placeholder="Maximum 8 characters"> </div>
+                            </div>
+                            <button>Register Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide daily-boxes">
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 10%</div>
+                            <img class="product-img" src="img/daily-images (1).png" alt="">
+                            <h5>Coffe & teas</h5>
+                            <h4>Coffe 1kg</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$20 <span>$25</span></div>
+                                <div class="value"></div>
+                                <p>Sold: 20/50</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam daily-reklam-02">Best deal</div>
+                            <img class="product-img" src="img/daily-images (2).png" alt="">
+                            <h5>Meat</h5>
+                            <h4>Halal Sausage 350g</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$4 <span>$10</span></div>
+                                <div class="value value-02"></div>
+                                <p>Sold: 7/20</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 4%</div>
+                            <img class="product-img" src="img/daily-images (3).png" alt="">
+                            <h5>Coffe & teas</h5>
+                            <h4>Green Tea 250g</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$3 <span>$7</span></div>
+                                <div class="value value-03"></div>
+                                <p>Sold: 32/50</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 8%</div>
+                            <img class="product-img" src="img/daily-images (4).png" alt="">
+                            <h5>Vegetables</h5>
+                            <h4>Onion 1kg</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$0.50 <span>$2</span></div>
+                                <div class="value value-04"></div>
+                                <p>Sold: 2/10</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box-last">
+                        <img class="box-last-img" src="img/daily-box-last-img.png" alt="">
+                        <div class="last-item">
+                            <h3>10% OFF</h3>
+                            <p>For new member sign up at the first time</p>
+                            <div class="input">
+                                <h5>Email address <span>*</span></h5>
+                                <div><img src="img/li_mail.png" alt=""> <input type="text" placeholder="johndoe@gmail.com"> </div>
+                            </div>
+                            <div class="input">
+                                <h5>Password <span>*</span></h5>
+                                <div><img src="img/li_key.png" alt=""> <input type="password" placeholder="Maximum 8 characters"> </div>
+                            </div>
+                            <button>Register Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide daily-boxes">
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 10%</div>
+                            <img class="product-img" src="img/daily-images (1).png" alt="">
+                            <h5>Coffe & teas</h5>
+                            <h4>Coffe 1kg</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$20 <span>$25</span></div>
+                                <div class="value"></div>
+                                <p>Sold: 20/50</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam daily-reklam-02">Best deal</div>
+                            <img class="product-img" src="img/daily-images (2).png" alt="">
+                            <h5>Meat</h5>
+                            <h4>Halal Sausage 350g</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$4 <span>$10</span></div>
+                                <div class="value value-02"></div>
+                                <p>Sold: 7/20</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 4%</div>
+                            <img class="product-img" src="img/daily-images (3).png" alt="">
+                            <h5>Coffe & teas</h5>
+                            <h4>Green Tea 250g</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$3 <span>$7</span></div>
+                                <div class="value value-03"></div>
+                                <p>Sold: 32/50</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box">
+                        <div>
+                            <div class="daily-reklam">Save 8%</div>
+                            <img class="product-img" src="img/daily-images (4).png" alt="">
+                            <h5>Vegetables</h5>
+                            <h4>Onion 1kg</h4>
+                            <ul>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/yellow-star.png" alt=""></li>
+                                <li><img src="img/gray-star.png" alt=""></li>
+                                <li>(4)</li>
+                            </ul>
+                            <p>By <span>Mr.food</span></p>
+                            <div class="price-button">
+                                <div class="price">$0.50 <span>$2</span></div>
+                                <div class="value value-04"></div>
+                                <p>Sold: 2/10</p>
+                                <button><img src="img/button-shopping-cart-02.png" alt=""> Add to cart </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="daily-box-last">
+                        <img class="box-last-img" src="img/daily-box-last-img.png" alt="">
+                        <div class="last-item">
+                            <h3>10% OFF</h3>
+                            <p>For new member sign up at the first time</p>
+                            <div class="input">
+                                <h5>Email address <span>*</span></h5>
+                                <div><img src="img/li_mail.png" alt=""> <input type="text" placeholder="johndoe@gmail.com"> </div>
+                            </div>
+                            <div class="input">
+                                <h5>Password <span>*</span></h5>
+                                <div><img src="img/li_key.png" alt=""> <input type="password" placeholder="Maximum 8 characters"> </div>
+                            </div>
+                            <button>Register Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- daily best sells section ends -->
+
+
+    <!-- top products section starts -->
+    <section class="top-product" id="top-product">
+        <div class="wrapper">
+
+            <div class="product-boxes">
+                <h4>Top Sells</h4>
+                <div class="value"></div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (5).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (2).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (3).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-boxes">
+                <h4>Top Rated</h4>
+                <div class="value"></div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (1).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (2).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (4).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-boxes">
+                <h4>Trending Items</h4>
+                <div class="value"></div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (7).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (6).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (5).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-boxes">
+                <h4>Recently Added</h4>
+                <div class="value"></div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (4).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (7).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <div class="top-product-img"><img src="img/Explore-Categories (3).png" alt=""></div>
+                    <div class="box-description">
+                        <h5>Orange 1kg</h5>
+                        <ul>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/yellow-star.png" alt=""></li>
+                            <li><img src="img/gray-star.png" alt=""></li>
+                            <li>(4)</li>
+                        </ul>
+                        <div class="price">$2 <span>$3.99</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- top products section ends -->
+
+
+    <!-- shop app section starts -->
+    <section class="shop-app" id="shop-app">
+        <img class="app-background" src="img/shop-app-background.png" alt="">
+        <div class="wrapper">
+            <div class="app-item">
+                <div class="app-left">
+                    <h2>Shop Faster With Groceyish App</h2>
+                    <p>Available on both IOS & Android</p>
+                    <div>
+                        <a href="#"><img src="img/app-store.png" alt=""></a>
+                        <a href="#"><img src="img/google-play.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="app-right">
+                    <img class="app-img-01" src="img/X - 2.png" alt="">
+                    <img class="app-img-02" src="img/X - 1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shop app section ends -->
+
+
+    <!-- service section starts -->
+    <section class="service">
+        <div class="wrapper">
+            <div class="service-boxes">
+
+                <div class="service-box">
+                    <img src="img/services (1).png" alt="">
+                    <div>
+                        <h4>Best Prices & Deals</h4>
+                        <p>Don’t miss our daily amazing deals and prices</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <img src="img/services (2).png" alt="">
+                    <div>
+                        <h4>Refundable </h4>
+                        <p>If your items have damage we agree to refund it</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <img src="img/services (3).png" alt="">
+                    <div>
+                        <h4>Free delivery</h4>
+                        <p>Do purchase over $50 and get free delivery anywhere</p>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- service section ends -->
+
+
+
+    <!-- footer section starts -->
+    <footer class="footer" id="footer">
+        <div class="wrapper">
+            <div class="footer-top">
+
+                <div class="top-first-box">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                        <div>
+                            <h3>Groceyish</h3>
+                            <p>GROCERY</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/footer (1).png" alt="">
+                        <h4>Address:</h4>
+                        <p>1762 School House Road</p>
+                    </div>
+                    <div>
+                        <img src="img/footer (2).png" alt="">
+                        <h4>Call Us:</h4>
+                        <p>1233-777</p>
+                    </div>
+                    <div>
+                        <img src="img/footer (3).png" alt="">
+                        <h4>Email:</h4>
+                        <p>groceyish@contact.com</p>
+                    </div>
+                    <div>
+                        <img src="img/footer (4).png" alt="">
+                        <h4>Work hours:</h4>
+                        <p>8:00 - 20:00, Sunday -  Thursday</p>
+                    </div>
+                </div>
+
+                <div class="top-box">
+                    <h3>Account</h3>
+                    <ul>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Shipping Details</a></li>
+                    </ul>
+                </div>
+
+                <div class="top-box">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Conact</a></li>
+                        <li><a href="#">Hot deals</a></li>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">New products</a></li>
+                    </ul>
+                </div>
+
+                <div class="top-box">
+                    <h3>Help Center</h3>
+                    <ul>
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Refund</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>© 2022, All rights reserved</p>
+                <a href="#"><img src="img/Payment.png" alt=""></a>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+
+
+
+    <!-- swiperjs for js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
